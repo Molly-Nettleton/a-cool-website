@@ -1,0 +1,75 @@
+:root {
+  --primary: cadetblue;
+  --mb: 4rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  height: 20px;
+  background-color: rgb(131, 190, 197);
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: var(--primary);
+  padding: 1.75rem;
+  border-style: dotted;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 0%;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--primary);
+  padding: 1em;
+  border-style: dotted;
+  height: 8rem;
+}
+
+html {
+  background-color: rgb(64, 123, 130);
+  color: white;
+}
+
+.article {
+  font-size: 12px;
+}
+
+.left-column {
+  width: 65vw;
+  padding: 0 3rem;
+}
+
+.right-column {
+  width: 35vw;
+  padding-right: 3em;
+  text-align: left;
+}
+
+.section-title {
+  text-align: center;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.main-paragraph {
+  margin-bottom: var(--mb);
+}
+
+.d-flex {
+  display: flex;
+}
